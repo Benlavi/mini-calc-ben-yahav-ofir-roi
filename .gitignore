@@ -1,0 +1,13 @@
+# Maven build output
+target/
+
+# macOS
+.DS_Store
+
+# IDEs (optional but recommended)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
