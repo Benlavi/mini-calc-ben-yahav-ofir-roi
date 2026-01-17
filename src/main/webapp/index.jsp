@@ -6,7 +6,7 @@
   <title>Mini Calculator - Input</title>
 </head>
 <body>
-  <h1>Mini Calculator</h1>
+  <h1>Mini Calculator - HIT DEVOPS PROJECT</h1>
   <p>Enter two numbers, choose an operation, and click Submit.</p>
 
   <form method="post" action="result.jsp">
