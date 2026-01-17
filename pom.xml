@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>hit.devops</groupId>
-  <artifactId>mini-calculator</artifactId>
+  <artifactId>mini-calculator-ben-yahav-ofir-roy</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
 
@@ -14,6 +14,6 @@
   </properties>
 
   <build>
-    <finalName>mini-calculator</finalName>
+    <finalName>mini-calculator-ben-yahav-ofir-roy</finalName>
   </build>
 </project>
