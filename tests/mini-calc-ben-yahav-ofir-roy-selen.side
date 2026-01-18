@@ -1,0 +1,179 @@
+{
+  "id": "04702afb-fcf0-4e0a-9d2c-6bd17591533c",
+  "version": "2.0",
+  "name": "mini-calc-ben-yahav-ofir-roy",
+  "url": "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp",
+  "tests": [{
+    "id": "3b59cb1f-cdac-42f1-ac0b-7b33e1e913dd",
+    "name": "assertTitle",
+    "commands": [{
+      "id": "18f74c95-28f3-4e3e-9860-93f1172bd9ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daf0970b-4eff-4f03-8825-15c8edfbab6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x607",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29d1a76d-bb81-4e9f-a36d-ede7f3352fd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mini Calculator - HIT DEVOPS PROJECT - Ben - ofir - roy - yahav')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4334abc-d56d-4edd-bf57-60801fb6af8d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Mini Calculator - Input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb06e438-806e-48ec-b483-caa888084910",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='result.jsp']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ea51e088-844d-4cb6-a217-1f8dc4169b18",
+    "name": "assertTextPresent",
+    "commands": [{
+      "id": "a519f838-5a12-442c-b125-dc252c189ad2",
+      "comment": "",
+      "command": "open",
+      "target": "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b75efdf-9aee-4581-a85b-60c5894e61c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x607",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ad1a2ba-233e-4ef4-ac00-47736b71654b",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c3cdea0-581c-4e6d-beea-7e318b2e5b2d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mini Calculator - HIT DEVOPS PROJECT - Ben - ofir - roy - yahav')]", "xpath:innerText"]
+      ],
+      "value": "Mini Calculator - HIT DEVOPS PROJECT"
+    }]
+  }, {
+    "id": "b92821dd-f1bf-4855-8a77-f44107a55ef0",
+    "name": "assertElementPresent-submit-button",
+    "commands": [{
+      "id": "86a388e6-6075-481b-ba41-cc2bf47c3e76",
+      "comment": "",
+      "command": "open",
+      "target": "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "162d9fb1-fc37-4b69-8940-560e4637111e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x607",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d872e8e-1519-49e8-a764-3f3ef6d538f6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b8b5974a-0c71-4601-8820-c18f00b549dd",
+    "name": "assertDropdownlist",
+    "commands": [{
+      "id": "e53310b4-d9da-4ab2-a8f7-d0683705a021",
+      "comment": "",
+      "command": "open",
+      "target": "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4776e60d-9d7e-4978-b7a6-ca125a228eac",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=select[name=\"op\"] > option:nth-child(4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faae287e-b810-424a-b912-e1f0e0cd8a65",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=select[name=\"op\"] > option[value=\"sub\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47c46e39-3901-45a7-8781-9734e510e093",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=select[name=\"op\"] > option[value=\"mul\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e836d473-628e-431e-b833-05512188f1da",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=select[name=\"op\"] > option[value=\"div\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08d6807b-3c9e-41e6-94e9-16d2bf058df1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=select[name=\"op\"] >option[value=\"add\"]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4e4f76e4-4bef-4150-8198-f713ce3e8a33",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/", "https://mini-calc-ben-yahav-ofir-roy-afcjgwath6bjd3h7.israelcentral-01.azurewebsites.net/mini-calculator-ben-yahav-ofir-roy/index.jsp"],
+  "plugins": []
+}
