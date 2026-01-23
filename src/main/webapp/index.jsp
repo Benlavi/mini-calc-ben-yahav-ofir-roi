@@ -35,9 +35,5 @@
 
     <button type="submit">Submit</button>
   </form>
-
-  <p style="margin-top:16px;">
-    <a href="about.jsp">About</a>
-  </p>
 </body>
 </html>
