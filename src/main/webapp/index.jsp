@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1>Mini Calculator - HIT DEVOPS PROJECT</h1>
-  <p>Enter numbers (test), choose an operation, and click Submit.</p>
+  <p>Enter numbers (test), choose an operation, and click Submit</p>
 
   <form method="post" action="result.jsp">
     <label>
